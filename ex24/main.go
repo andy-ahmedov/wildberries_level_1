@@ -5,9 +5,8 @@ import (
 )
 
 func main() {
-	p1 := NewPoint(5, 7)
-	p2 := NewPoint(5, 7)
-
+	p2 := main.NewPoint(2, 3)
+	p1 := main.NewPoint(1, 3)
 	dist := Distance(p1, p2)
 	fmt.Println(dist)
 
